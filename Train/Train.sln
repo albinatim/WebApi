@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32126.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{7412933E-3DDA-448E-AFDE-1B672D9DA1FD}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Train", "Train\Train\Train.csproj", "{4F31FA96-624F-45BD-92DC-D16A769FB47C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Train", "Train\Train.csproj", "{4F31FA96-624F-45BD-92DC-D16A769FB47C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7412933E-3DDA-448E-AFDE-1B672D9DA1FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7412933E-3DDA-448E-AFDE-1B672D9DA1FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7412933E-3DDA-448E-AFDE-1B672D9DA1FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7412933E-3DDA-448E-AFDE-1B672D9DA1FD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4F31FA96-624F-45BD-92DC-D16A769FB47C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4F31FA96-624F-45BD-92DC-D16A769FB47C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F31FA96-624F-45BD-92DC-D16A769FB47C}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -26,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {40C9BF57-FB5A-45CC-9904-B9F21543803A}
+		SolutionGuid = {F868C8AE-7568-4BF0-AC76-DDF4255320F9}
 	EndGlobalSection
 EndGlobal

@@ -33,4 +33,4 @@ and (tbl2.ClosePrice/tbl1.ClosePrice>1.3 or tbl1.ClosePrice/tbl2.ClosePrice>1.3)
 --индексов)
 
 
-CREATE INDEX [IX_tblClosePrice_PriceAssetId_PriceDate] ON [dbo].[tblClosePrice] ( PriceAssetId,PriceDate )
+--CREATE INDEX [IX_tblClosePrice_PriceAssetId_PriceDate] ON [dbo].[tblClosePrice] ( PriceAssetId,PriceDate )

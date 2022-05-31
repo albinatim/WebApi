@@ -31,14 +31,6 @@ group by tblClient.[ClientId], Name
 
 --4) Измените платёж Кузнецовой Анны Андреевны от 02.03.2022, применив к нему 
 --скидку 10% (Уменьшите на 10%). Напишите SQL запрос.
-update tblClientPayments
-set PaymentSum = PaymentSum * 0.9
-where ClientId = (select ClientId from tblClient 
-where Name = N'Кузнецова Анна Андреевна')
-and PaymentDate = '2022-03-02'
+
 
 --5) Добавьте платёж Петрова Петра Петровича за текущую дату на сумму 18000.
-insert tblClientPayments values (
-(select ClientId from tblClient 
-where Name = N'Петров Петр Петрович'), GETDATE(), 18000
-)
